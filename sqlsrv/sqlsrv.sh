@@ -1,6 +1,6 @@
 #!/bin/bash
 #this is scitp for sqlsrv driver install in ubuntu 16.04 with php 7.4
-sudo su
+sudo apt install software-properties-common
 add-apt-repository ppa:ondrej/php -y
 apt-get update
 apt-get install php7.4 php7.4-dev php7.4-xml -y --allow-unauthenticated
